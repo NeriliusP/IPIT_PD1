@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="char" content="utf-8">
+    <meta name="creation date" content="2023-10-16">
+    <meta name="author" content="Nerilius Puotkalis">
+    <meta name="keywords" content="artillery, howitzer, NATO, russia, war, battle, doctrine">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website about artillery guns">
+    <title>Artilerijos pabūaklai</title>
+<style>
+body {
+    min-height: 100hv;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+    background-color: lightslategray;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: gray;
+}
+header {
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+footer {
+    min-height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    flex: 1;
+    background-color: white;
+}
+#center{
+    text-align: center;
+}
+#header_line{
+    text-align: center;
+    background-color: darkgray;
+    border-style: solid none solid none;
+    border-color: black;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Artilerijos pabūklai</h1>
+</header>
+
+<nav>
+<ul>
+    <li><a href="main.html">Atgal</a></li>
+</ul>
+</nav>
+
+<article>
+<form action="main.html">
+    <label for="nick">Slapyvardis:</label><br>
+    <input type="text" id="nick" name="nick"><br><br>
+    <label for="easy_use">Nuo 1 iki 10 įvertinkite, kaip lengva buvo naviguotis puslapyje:</label><br>
+    <input type="radio" id="1" name="easy_use" value="1">
+    <label for="1">1</label><br>
+    <input type="radio" id="2" name="easy_use" value="2">
+    <label for="1">2</label><br>
+    <input type="radio" id="3" name="easy_use" value="3">
+    <label for="1">3</label><br>
+    <input type="radio" id="4" name="easy_use" value="4">
+    <label for="1">4</label><br>
+    <input type="radio" id="5" name="easy_use" value="5">
+    <label for="1">5</label><br>
+    <input type="radio" id="6" name="easy_use" value="6">
+    <label for="1">6</label><br>
+    <input type="radio" id="7" name="easy_use" value="7">
+    <label for="1">7</label><br>
+    <input type="radio" id="8" name="easy_use" value="8">
+    <label for="1">8</label><br>
+    <input type="radio" id="9" name="easy_use" value="9">
+    <label for="1">9</label><br>
+    <input type="radio" id="10" name="easy_use" value="10">
+    <label for="1">10</label><br><br>
+    <label for="favorite">Koks puslapis buvo jūsų mėgstamiausias (galimi keli)</label><br>
+    <input type="checkbox" id="main" name="favorite" value="favorite">
+    <label for="main">Pagrindinis</label><br>
+    <input type="checkbox" id="gallery" name="favorite" value="favorite">
+    <label for="gallery">Albumas</label><br>
+    <input type="checkbox" id="doctrine" name="favorite" value="favorite">
+    <label for="doctrine">Doktrinos</label><br>
+    <input type="checkbox" id="list" name="favorite" value="favorite">
+    <label for="list">Pabūklų sąrašo</label><br>
+    <input type="checkbox" id="form" name="favorite" value="favorite">
+    <label for="form">Apklausos formos</label><br><br>
+    <input type="submit" value="Pateikti" onclick="alert('Ačiū už jūsų nuomonė')">
+</form>
+<br>
+</article>
+
+<footer>
+<p id="center">Nerilius Puotkalis. 2023</p>
+<p id="center">El. Paštas: nerilius.puotkalis@kf.stud.vu.lt</p>
+</footer>
+</body>
+</html>
